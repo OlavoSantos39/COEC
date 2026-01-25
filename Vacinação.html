@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendário Nacional de Vacinação 2025</title>
+    <title>Calendário de Vacinação</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header><label for="data" style="color: rgb(0, 0, 0);"></label>
+    <header>
+         <label for="data" style="color: rgb(0, 0, 0);"></label>
 <input type="date" id="data" name="data" style="float: inline-start;">
 <script>
     document.getElementById('data').valueAsDate = new Date();
 </script>
-       <img src="img/Blue Animated History Google Classroom Header (1).png"  width="700px" alt="">
+        <img src="img/Blue Animated History Google Classroom Header (1).png" width="700px" alt="">
         <nav>
-           <button> <a href="principal.html">Início</a></button>
+            <button><a href="principal.html">Início</a></button>
             <button><a href="saude.html">Saúde</a></button>
             <button><a href="educacao.html">Educação e Cultura</a></button>
             <button><a href="lazer.html">Lazer</a></button>
@@ -62,25 +63,37 @@
             />
           </a>
         </div>
+        <script>
+        (function(d, s, id) {
+            if (d.getElementById(id)) {
+                if (window.__TOMORROW__) {
+                    window.__TOMORROW__.renderWidget();
+                }
+                return;
+            }
+            const fjs = d.getElementsByTagName(s)[0];
+            const js = d.createElement(s);
+            js.id = id;
+            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, 'script', 'tomorrow-sdk');
+        </script>
     </header>
     <main>
         <h2>Calendário Nacional de Vacinação 2025 &#x1F489;</h2>
-        <p>Confira o calendário nacional de vacinação para o ano de 2025. Este calendário é elaborado pelo Ministério da Saúde e contém todas as vacinas recomendadas para diferentes faixas etárias e grupos populacionais. A vacinação é uma das principais estratégias para prevenir doenças e proteger a saúde pública.</p>
-        <div class="document-links">
-            <a href="Arquivos/Calendário Nacional de Vacinação - Gestante.pdf" target="_blank"><h3>Visualizar Calendário Nacional de Vacinação 2025 - Gestantes</h3></a>
-        </div>
-        <div class="document-links">
-            <a href="Arquivos/Calendário Nacional de Vacinação - Criança.pdf" target="_blank"><h3>Visualizar Calendário Nacional de Vacinação 2025 - Crianças</h3></a>
-        </div>
-        <div class="document-links">
-            <a href="Arquivos/Calendário Nacional de Vacinação - Adolescentes e jovens.pdf" target="_blank"><h3>Visualizar Calendário Nacional de Vacinação 2025 - Adolescentes e jovens</h3></a>
-        </div>
-        <div class="document-links">
-            <a href="Arquivos/Calendário Técnico de Vacinação - Adulto.pdf" target="_blank"><h3>Visualizar Calendário Nacional de Vacinação 2025 - Adultos</h3></a>
-        </div>
-        <div class="document-links">
-            <a href="Arquivos/Calendário Nacional de Vacinação - Idoso.pdf" target="_blank"><h3>Visualizar Calendário Nacional de Vacinação 2025 - Idosos</h3></a>
-        </div>
-    </main>
+        <p>Bem-vindo ao Calendário Nacional de Vacinação 2025! Manter-se atualizado com as vacinas recomendadas é essencial para proteger sua saúde e a saúde da comunidade. Abaixo, você encontrará informações sobre as vacinas disponíveis, suas indicações e o cronograma recomendado para diferentes faixas etárias.</p>
+        <h2>Confira o calendaário de vacina clicando nas imagens:</h2>
+       <h2>Gestantes</h2>
+       <a href="Arquivos/Calendário Nacional de Vacinação - Gestante.pdf" target="_blank" rel="noopener noreferrer"><img src="img/gravida vacina.jpeg" width="700px" height="200px" alt=""></a>
+       <h2>Crianças</h2>
+       <a href="Arquivos/Calendário Nacional de Vacinação - Criança.pdf" target="_blank" rel="noopener noreferrer"><img src="img/criança vacina.jpeg" width="700px" height="200px" alt=""></a>
+         <h2>Adolescentes</h2>
+         <a href="Arquivos/Calendário Nacional de Vacinação - Adolescentes e jovens.pdf" target="_blank"><img src="img/adolescente vacina.jpeg" width="700px" height="200px" alt=""></a>
+            <h2>Adultos</h2>
+            <a href="Arquivos/Calendário Técnico de Vacinação - Adulto.pdf" target="_blank"><img src="img/adulto vacina.jpeg" width="700px" height="200px" alt=""></a>
+               <h2>Idosos</h2>
+               <a href="Arquivos/Calendário Nacional de Vacinação - Idoso.pdf" target="_blank"><img src="idoso vacina.jpeg" width="700px" height="200px" alt=""></a>
+       <p>Consulte seu médico ou unidade de saúde para mais informações sobre o calendário de vacinação e agende suas vacinas conforme necessário. Proteja-se e proteja sua comunidade!</p>
 </body>
 </html>
