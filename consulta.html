@@ -9,23 +9,13 @@
 </head>
 <body>
     <header>
-         <section class="container">
-    <div id="relogio" text-align="left" style="color: black; "></div>
-     <script>
-    function atualizarRelogio() {
-      const agora = new Date();
-      const opcoesData = { day: '2-digit', month: '2-digit', year: 'numeric' };
-      const data = agora.toLocaleDateString('pt-BR', opcoesData);
-      const hora = agora.toLocaleTimeString('pt-BR');
-      document.getElementById('relogio').textContent = data + " - " + hora;
-    }
-    atualizarRelogio();
-    setInterval(atualizarRelogio, 1000);
-    </script>
-    </div>
+     <label for="data" style="color: rgb(0, 0, 0);"></label>
+<input type="date" id="data" name="data" style="float: inline-start;">
+<script>
+    document.getElementById('data').valueAsDate = new Date();
+</script>
 </section>
-    <h1>COEC</h1> <img src="img/logo.png" width="150px" height="150px">
-    <h2>Calendário Online de Eventos Comunitários - CONSULTA MÉDICA</h2>
+    <img src="img/Blue Animated History Google Classroom Header (1).png" width="700px" alt="">
     <nav>
         <button><a href="principal.html">Início</a></button>
         <button><a href="saude.html">Saúde</a></button>

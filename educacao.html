@@ -9,23 +9,13 @@
 </head>
 <body>
     <header>
-    <section class="container">
-    <div id="relogio" text-align="left" style="color: black; "></div>
-     <script>
-    function atualizarRelogio() {
-      const agora = new Date();
-      const opcoesData = { day: '2-digit', month: '2-digit', year: 'numeric' };
-      const data = agora.toLocaleDateString('pt-BR', opcoesData);
-      const hora = agora.toLocaleTimeString('pt-BR');
-      document.getElementById('relogio').textContent = data + " - " + hora;
-    }
-    atualizarRelogio();
-    setInterval(atualizarRelogio, 1000);
-    </script>
-    </div>
+    <label for="data" style="color: rgb(0, 0, 0);"></label>
+<input type="date" id="data" name="data" style="float: inline-start;">
+<script>
+    document.getElementById('data').valueAsDate = new Date();
+</script>
 </section>
-        <h1>COEC</h1> <img src="img/logo.png" width="150px" height="150px">
-        <h2>Calendário Online de Eventos Comunitários - EDUCAÇÃO E CULTURA</h2>
+        <img src="img/Blue Animated History Google Classroom Header (1).png" width="700px" alt="">
         <nav>
             <button><a href="principal.html">Início</a></button>
             <button><a href="saude.html">Saúde</a></button>
@@ -78,10 +68,13 @@
         <h2>Educação e Cultura</h2>
         <p>Bem-vindo à seção de Educação e Cultura do COEC! Aqui você encontrará informações sobre eventos comunitários relacionados à educação, arte e cultura, como oficinas, exposições, palestras e atividades culturais. Nosso objetivo é promover o acesso à educação e enriquecer a vida cultural da comunidade.</p>
         <p>Navegue pelos eventos disponíveis e participe ativamente para expandir seus conhecimentos e vivenciar novas experiências culturais!</p>
-        <h2>VER-SUS 2026 aposta em formação conectada à realidade e às vivências do SUS</h2>
-        <p>Para mais informações acesse o link <a href="https://uespi.br/ver-sus-2026-aposta-em-formacao-conectada-a-realidade-e-as-vivencias-do-sus/" target="_blank">VER-SUS 2026</a></p>
-        <h2>UESPI fortalece diálogo com gestores em encontro com diretores e vice-diretores</h2>
-        <p>Para mais informações acesse o link <a href="https://uespi.br/uespi-fortalece-dialogo-com-gestores-em-encontro-com-diretores-e-vice-diretores/" target="_blank">Encontro com diretores e vice-diretores</a></p>
+        <h2>Matrículas Seduc 2026</h2>
+        <a href="https://pidigital.pi.gov.br/app/catalog/educacao-e-escola/realizar-matricula-de-aluno-2026" target="_blank"><img src="img/matriculas.jpeg" width="700px" height="200px"></a>
+        <p>As matrículas para o ano letivo de 2026 na rede pública de ensino do Piauí estão abertas! Os pais e responsáveis podem realizar a matrícula dos alunos através do portal PI Digital. Não perca a oportunidade de garantir a vaga do seu filho em uma escola pública de qualidade.<b> Clique na imagem acima para acessar o portal e efetuar a matrícula.</b> Inicio das aulas está previsto para o dia 2 de Fevereiro de 2026</p>
+        <h2>Festival de Inverno de Pedro II chega à 20ª edição em 2026;</h2>
+        <img src="img/festival de pedro 2.webp" width="700px" height="200px" alt="">
+        <p>Secretaria do Turismo do Piauí divulgou, nesta quinta-feira (22), o resultado preliminar da Chamada Pública para o Calendário de Eventos Turísticos do Piauí 2026. Entre os eventos confirmados está a 20ª edição do Festival de Inverno de Pedro II, que acontecerá de 4 a 7 de junho de 2026.</p>
+        
     </main>
 </body>
 <footer>
